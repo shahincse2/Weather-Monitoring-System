@@ -22,7 +22,7 @@ SFE_BMP180 bmp;
 
 char auth[] = BLYNK_AUTH_TOKEN;//Enter your Auth token
 char ssid[] = "White House";//Enter your WIFI name
-char pass[] = "@Shahin20#";//Enter your WIFI password
+char pass[] = "12345678";//Enter your WIFI password
 
 DHT dht(D3, DHT11);//(DHT sensor pin,sensor type)
 BlynkTimer timer;
